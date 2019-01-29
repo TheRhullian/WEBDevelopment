@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>CSS - Tamanho de Fontes</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            .formatacao {
+                /*
+                    pixel - Fixo
+                */
+                font-size: 20px;
+            }
+
+            .formatacao2 {
+                /*
+                    em - Relativo ao pai
+                */
+                font-size: 2em;
+            }
+
+            .formatacao3 {
+                /*
+                    pixel - Fixo
+                    % - Relativo
+                    em - Relativo
+                */
+                font-size: 100%;
+            }
+            
+            div {
+                font-size: 30px;
+            }
+        </style>
+
+    </head>
+
+    <body >
+        <h1>CABEÇALHO</h1>
+
+        <p class="formatacao">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quo ut beatae fuga eum. Adipisci animi reprehenderit dolor dolorem quidem quos saepe repellendus non nisi rerum? Nesciunt temporibus totam omnis!
+        </p>
+
+        <div>
+                <p>
+                    Texto na Div 1 - Formatacao 1
+                </p>
+                <p class="formatacao2">
+                    Texto na Div 1 - Formatacao 2
+                </p>
+        </div>
+        
+
+        <p class="formatacao3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quo ut beatae fuga eum. Adipisci animi reprehenderit dolor dolorem quidem quos saepe repellendus non nisi rerum? Nesciunt temporibus totam omnis!
+        </p>
+    </body>
+
+</html>
