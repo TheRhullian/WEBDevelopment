@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+}
+
+p {
+    font-size: 42px;
+    color: white;
+}
+
+.fundo {
+    background-color: gray;
+}
+
+.fundo2 {
+    background-image: url("../img/lolImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 
+        Pode ter dois posicionamentos
+        primeiro X depois Y
+        center bottom;
+
+        Pode ser em porcentagem ou px também
+    */
+    background-position: top center; 
+    color: white;
+}
